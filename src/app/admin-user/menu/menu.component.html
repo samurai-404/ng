@@ -1,0 +1,10 @@
+<div>
+<mat-sidenav>
+  <mat-toolbar color="primary">
+    Contacts
+  </mat-toolbar>
+  <mat-list *ngFor="let contact of contacts" role="list">
+    <mat-list-item role="listitem">{{contact.name}}</mat-list-item>
+  </mat-list>
+</mat-sidenav>
+</div>
